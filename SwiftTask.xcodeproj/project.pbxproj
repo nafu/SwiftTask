@@ -11,6 +11,8 @@
 		13EF3B0B1E169A6A002D7981 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF3B091E169A6A002D7981 /* Async.framework */; };
 		13EF3B0F1E169DC5002D7981 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF3B0D1E169DC5002D7981 /* Alamofire.framework */; };
 		13EF3B101E169DC5002D7981 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF3B0E1E169DC5002D7981 /* Async.framework */; };
+		13EF3B121E16A2F5002D7981 /* AlamofireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5FA35619A374E600975FB9 /* AlamofireTests.swift */; };
+		13EF3B131E16A2F9002D7981 /* AlamofireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5FA35619A374E600975FB9 /* AlamofireTests.swift */; };
 		1F20250219ADA8FD00DE0495 /* BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20250119ADA8FD00DE0495 /* BasicTests.swift */; };
 		1F218D5B1AFC3FFD00C849FF /* RemoveHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F218D5A1AFC3FFD00C849FF /* RemoveHandlerTests.swift */; };
 		1F218D5C1AFC3FFD00C849FF /* RemoveHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F218D5A1AFC3FFD00C849FF /* RemoveHandlerTests.swift */; };
@@ -421,6 +423,7 @@
 				485C31F11A1D619A00040DA3 /* TypeInferenceTests.swift in Sources */,
 				48511C5B19C17563002FE03C /* RetainCycleTests.swift in Sources */,
 				1F46DEFD199EE2C200F97868 /* _TestCase.swift in Sources */,
+				13EF3B131E16A2F9002D7981 /* AlamofireTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +440,7 @@
 				485C31F21A1D619A00040DA3 /* TypeInferenceTests.swift in Sources */,
 				4822F0DC19D00B2300F5F572 /* _TestCase.swift in Sources */,
 				4822F0E019D00B2300F5F572 /* RetainCycleTests.swift in Sources */,
+				13EF3B121E16A2F5002D7981 /* AlamofireTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
