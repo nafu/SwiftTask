@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13DDAC781E168F9B004C7839 /* UniversalFramework_Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13DDAC751E168F9B004C7839 /* UniversalFramework_Base.xcconfig */; };
-		13DDAC791E168F9B004C7839 /* UniversalFramework_Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13DDAC761E168F9B004C7839 /* UniversalFramework_Framework.xcconfig */; };
-		13DDAC7A1E168F9B004C7839 /* UniversalFramework_Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13DDAC771E168F9B004C7839 /* UniversalFramework_Test.xcconfig */; };
+		13EF3B0A1E169A6A002D7981 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF3B081E169A6A002D7981 /* Alamofire.framework */; };
+		13EF3B0B1E169A6A002D7981 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF3B091E169A6A002D7981 /* Async.framework */; };
+		13EF3B0F1E169DC5002D7981 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF3B0D1E169DC5002D7981 /* Alamofire.framework */; };
+		13EF3B101E169DC5002D7981 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF3B0E1E169DC5002D7981 /* Async.framework */; };
 		1F20250219ADA8FD00DE0495 /* BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20250119ADA8FD00DE0495 /* BasicTests.swift */; };
 		1F218D5B1AFC3FFD00C849FF /* RemoveHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F218D5A1AFC3FFD00C849FF /* RemoveHandlerTests.swift */; };
 		1F218D5C1AFC3FFD00C849FF /* RemoveHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F218D5A1AFC3FFD00C849FF /* RemoveHandlerTests.swift */; };
@@ -18,13 +19,9 @@
 		1F46DEDA199EDF1000F97868 /* SwiftTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F46DED9199EDF1000F97868 /* SwiftTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F46DEFB199EDF8100F97868 /* SwiftTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F46DEFA199EDF8100F97868 /* SwiftTask.swift */; };
 		1F46DEFD199EE2C200F97868 /* _TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F46DEFC199EE2C200F97868 /* _TestCase.swift */; };
-		1F4C7AD71B7CD27200DEB1AE /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4C7AD61B7CD27100DEB1AE /* Async.framework */; };
-		1F4C7AD91B7CD27600DEB1AE /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4C7AD81B7CD27600DEB1AE /* Async.framework */; };
 		1F6A8CA319A4E4F200369A5D /* SwiftTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F46DEE3199EDF1000F97868 /* SwiftTaskTests.swift */; };
 		1FB3B8F31B0A194F00F78900 /* _Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3B8F21B0A194F00F78900 /* _Atomic.swift */; };
 		1FB3B8F71C5CF2CA00C1A479 /* SwiftTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F46DED4199EDF1000F97868 /* SwiftTask.framework */; };
-		1FCF71121AD8CD2B007079C2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF71111AD8CD2B007079C2 /* Alamofire.framework */; };
-		1FCF71161AD8CD38007079C2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF71151AD8CD38007079C2 /* Alamofire.framework */; };
 		1FD7197B1AFE387C00BC38C4 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7197A1AFE387C00BC38C4 /* Cancellable.swift */; };
 		1FF52EB41A4C395A00B4BA28 /* _InterruptableTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF52EB31A4C395A00B4BA28 /* _InterruptableTask.swift */; };
 		1FF52EB51A4C395A00B4BA28 /* _InterruptableTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF52EB31A4C395A00B4BA28 /* _InterruptableTask.swift */; };
@@ -63,6 +60,10 @@
 		13DDAC751E168F9B004C7839 /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UniversalFramework_Base.xcconfig; path = Configurations/mrackwitz/xcconfigs/UniversalFramework_Base.xcconfig; sourceTree = SOURCE_ROOT; };
 		13DDAC761E168F9B004C7839 /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UniversalFramework_Framework.xcconfig; path = Configurations/mrackwitz/xcconfigs/UniversalFramework_Framework.xcconfig; sourceTree = SOURCE_ROOT; };
 		13DDAC771E168F9B004C7839 /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UniversalFramework_Test.xcconfig; path = Configurations/mrackwitz/xcconfigs/UniversalFramework_Test.xcconfig; sourceTree = SOURCE_ROOT; };
+		13EF3B081E169A6A002D7981 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		13EF3B091E169A6A002D7981 /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = Carthage/Build/iOS/Async.framework; sourceTree = "<group>"; };
+		13EF3B0D1E169DC5002D7981 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		13EF3B0E1E169DC5002D7981 /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = Carthage/Build/Mac/Async.framework; sourceTree = "<group>"; };
 		1F20250119ADA8FD00DE0495 /* BasicTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTests.swift; sourceTree = "<group>"; };
 		1F218D5A1AFC3FFD00C849FF /* RemoveHandlerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveHandlerTests.swift; sourceTree = "<group>"; };
 		1F29F6411B115EF500F476AF /* MultipleErrorTypesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleErrorTypesTests.swift; sourceTree = "<group>"; };
@@ -74,12 +75,8 @@
 		1F46DEE3199EDF1000F97868 /* SwiftTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTaskTests.swift; sourceTree = "<group>"; };
 		1F46DEFA199EDF8100F97868 /* SwiftTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTask.swift; sourceTree = "<group>"; };
 		1F46DEFC199EE2C200F97868 /* _TestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _TestCase.swift; sourceTree = "<group>"; };
-		1F4C7AD61B7CD27100DEB1AE /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = ../Carthage/Checkouts/Async/build/Debug/Async.framework; sourceTree = "<group>"; };
-		1F4C7AD81B7CD27600DEB1AE /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = "../Carthage/Checkouts/Async/build/Debug-iphoneos/Async.framework"; sourceTree = "<group>"; };
 		1F5FA35619A374E600975FB9 /* AlamofireTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireTests.swift; sourceTree = "<group>"; };
 		1FB3B8F21B0A194F00F78900 /* _Atomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Atomic.swift; sourceTree = "<group>"; };
-		1FCF71111AD8CD2B007079C2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../Carthage/Checkouts/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
-		1FCF71151AD8CD38007079C2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Checkouts/Alamofire/build/Debug/Alamofire.framework; sourceTree = "<group>"; };
 		1FD7197A1AFE387C00BC38C4 /* Cancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
 		1FF52EB31A4C395A00B4BA28 /* _InterruptableTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _InterruptableTask.swift; sourceTree = "<group>"; };
 		1FF95CAF1CDD8F8D00899FEA /* MultipleTasksTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleTasksTests.swift; sourceTree = "<group>"; };
@@ -106,8 +103,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				48A1E8221A366F9C007619EB /* SwiftTask.framework in Frameworks */,
-				1F4C7AD71B7CD27200DEB1AE /* Async.framework in Frameworks */,
-				1FCF71161AD8CD38007079C2 /* Alamofire.framework in Frameworks */,
+				13EF3B0F1E169DC5002D7981 /* Alamofire.framework in Frameworks */,
+				13EF3B101E169DC5002D7981 /* Async.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,14 +113,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB3B8F71C5CF2CA00C1A479 /* SwiftTask.framework in Frameworks */,
-				1F4C7AD91B7CD27600DEB1AE /* Async.framework in Frameworks */,
-				1FCF71121AD8CD2B007079C2 /* Alamofire.framework in Frameworks */,
+				13EF3B0A1E169A6A002D7981 /* Alamofire.framework in Frameworks */,
+				13EF3B0B1E169A6A002D7981 /* Async.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13EF3B071E169A6A002D7981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13EF3B0D1E169DC5002D7981 /* Alamofire.framework */,
+				13EF3B0E1E169DC5002D7981 /* Async.framework */,
+				13EF3B081E169A6A002D7981 /* Alamofire.framework */,
+				13EF3B091E169A6A002D7981 /* Async.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1F1BFFE21D97DCD9000105EB /* Deprecated */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +147,7 @@
 				1F46DED6199EDF1000F97868 /* SwiftTask */,
 				1F46DEE0199EDF1000F97868 /* SwiftTaskTests */,
 				1F46DED5199EDF1000F97868 /* Products */,
+				13EF3B071E169A6A002D7981 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,10 +204,6 @@
 		1F46DEE1199EDF1000F97868 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F4C7AD81B7CD27600DEB1AE /* Async.framework */,
-				1F4C7AD61B7CD27100DEB1AE /* Async.framework */,
-				1FCF71151AD8CD38007079C2 /* Alamofire.framework */,
-				1FCF71111AD8CD2B007079C2 /* Alamofire.framework */,
 				1F46DEE2199EDF1000F97868 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -292,6 +297,7 @@
 				4822F0CC19D00ABF00F5F572 /* Sources */,
 				4822F0CD19D00ABF00F5F572 /* Frameworks */,
 				4822F0CE19D00ABF00F5F572 /* Resources */,
+				13EF3B0C1E169CCB002D7981 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -310,7 +316,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Yasuhiro Inami";
 				TargetAttributes = {
 					1F46DED3199EDF1000F97868 = {
@@ -351,9 +357,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13DDAC7A1E168F9B004C7839 /* UniversalFramework_Test.xcconfig in Resources */,
-				13DDAC791E168F9B004C7839 /* UniversalFramework_Framework.xcconfig in Resources */,
-				13DDAC781E168F9B004C7839 /* UniversalFramework_Base.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +375,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13EF3B0C1E169CCB002D7981 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Async.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F46DECF199EDF1000F97868 /* Sources */ = {
@@ -448,8 +470,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -474,6 +498,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-DDEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -493,8 +518,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
@@ -511,6 +538,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_VERSION = 3.0.1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -518,6 +546,7 @@
 		};
 		1F46DEE8199EDF1000F97868 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DDAC761E168F9B004C7839 /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -536,6 +565,7 @@
 		};
 		1F46DEE9199EDF1000F97868 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DDAC761E168F9B004C7839 /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -554,8 +584,13 @@
 		};
 		1F46DEEB199EDF1000F97868 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DDAC771E168F9B004C7839 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -569,8 +604,13 @@
 		};
 		1F46DEEC199EDF1000F97868 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DDAC771E168F9B004C7839 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = SwiftTaskTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inamiy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -580,7 +620,12 @@
 		};
 		4822F0DA19D00ABF00F5F572 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DDAC771E168F9B004C7839 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -594,7 +639,12 @@
 		};
 		4822F0DB19D00ABF00F5F572 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DDAC771E168F9B004C7839 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftTaskTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inamiy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
