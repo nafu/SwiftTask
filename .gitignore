@@ -16,6 +16,5 @@ DerivedData
 *.ipa
 *.xcuserstate
 
-Carthage/Build
 .build
 Packages/
