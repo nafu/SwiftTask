@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13DDAC781E168F9B004C7839 /* UniversalFramework_Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13DDAC751E168F9B004C7839 /* UniversalFramework_Base.xcconfig */; };
+		13DDAC791E168F9B004C7839 /* UniversalFramework_Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13DDAC761E168F9B004C7839 /* UniversalFramework_Framework.xcconfig */; };
+		13DDAC7A1E168F9B004C7839 /* UniversalFramework_Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13DDAC771E168F9B004C7839 /* UniversalFramework_Test.xcconfig */; };
 		1F20250219ADA8FD00DE0495 /* BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20250119ADA8FD00DE0495 /* BasicTests.swift */; };
 		1F218D5B1AFC3FFD00C849FF /* RemoveHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F218D5A1AFC3FFD00C849FF /* RemoveHandlerTests.swift */; };
 		1F218D5C1AFC3FFD00C849FF /* RemoveHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F218D5A1AFC3FFD00C849FF /* RemoveHandlerTests.swift */; };
@@ -57,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13DDAC751E168F9B004C7839 /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UniversalFramework_Base.xcconfig; path = Configurations/mrackwitz/xcconfigs/UniversalFramework_Base.xcconfig; sourceTree = SOURCE_ROOT; };
+		13DDAC761E168F9B004C7839 /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UniversalFramework_Framework.xcconfig; path = Configurations/mrackwitz/xcconfigs/UniversalFramework_Framework.xcconfig; sourceTree = SOURCE_ROOT; };
+		13DDAC771E168F9B004C7839 /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UniversalFramework_Test.xcconfig; path = Configurations/mrackwitz/xcconfigs/UniversalFramework_Test.xcconfig; sourceTree = SOURCE_ROOT; };
 		1F20250119ADA8FD00DE0495 /* BasicTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTests.swift; sourceTree = "<group>"; };
 		1F218D5A1AFC3FFD00C849FF /* RemoveHandlerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveHandlerTests.swift; sourceTree = "<group>"; };
 		1F29F6411B115EF500F476AF /* MultipleErrorTypesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleErrorTypesTests.swift; sourceTree = "<group>"; };
@@ -80,9 +86,6 @@
 		1FFADCCF1C5CE950000B66BE /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
 		1FFADCD01C5CE950000B66BE /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		1FFADCD11C5CE950000B66BE /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		1FFADCDC1C5CEC1B000B66BE /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UniversalFramework_Base.xcconfig; sourceTree = "<group>"; };
-		1FFADCDD1C5CEC1B000B66BE /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UniversalFramework_Framework.xcconfig; sourceTree = "<group>"; };
-		1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UniversalFramework_Test.xcconfig; sourceTree = "<group>"; };
 		4822F0D019D00ABF00F5F572 /* SwiftTask-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftTask-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48511C5A19C17563002FE03C /* RetainCycleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetainCycleTests.swift; sourceTree = "<group>"; };
 		485C31F01A1D619A00040DA3 /* TypeInferenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeInferenceTests.swift; sourceTree = "<group>"; };
@@ -224,9 +227,9 @@
 		1FFADCD91C5CEC1B000B66BE /* mrackwitz/xcconfigs (for target) */ = {
 			isa = PBXGroup;
 			children = (
-				1FFADCDC1C5CEC1B000B66BE /* UniversalFramework_Base.xcconfig */,
-				1FFADCDD1C5CEC1B000B66BE /* UniversalFramework_Framework.xcconfig */,
-				1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */,
+				13DDAC751E168F9B004C7839 /* UniversalFramework_Base.xcconfig */,
+				13DDAC761E168F9B004C7839 /* UniversalFramework_Framework.xcconfig */,
+				13DDAC771E168F9B004C7839 /* UniversalFramework_Test.xcconfig */,
 			);
 			name = "mrackwitz/xcconfigs (for target)";
 			path = Carthage/Checkouts/xcconfigs;
@@ -348,6 +351,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DDAC7A1E168F9B004C7839 /* UniversalFramework_Test.xcconfig in Resources */,
+				13DDAC791E168F9B004C7839 /* UniversalFramework_Framework.xcconfig in Resources */,
+				13DDAC781E168F9B004C7839 /* UniversalFramework_Base.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,7 +518,6 @@
 		};
 		1F46DEE8199EDF1000F97868 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDD1C5CEC1B000B66BE /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -531,7 +536,6 @@
 		};
 		1F46DEE9199EDF1000F97868 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDD1C5CEC1B000B66BE /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -550,7 +554,6 @@
 		};
 		1F46DEEB199EDF1000F97868 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -566,7 +569,6 @@
 		};
 		1F46DEEC199EDF1000F97868 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftTaskTests/Info.plist;
@@ -578,7 +580,6 @@
 		};
 		4822F0DA19D00ABF00F5F572 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -593,7 +594,6 @@
 		};
 		4822F0DB19D00ABF00F5F572 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftTaskTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inamiy.$(PRODUCT_NAME:rfc1034identifier)";
