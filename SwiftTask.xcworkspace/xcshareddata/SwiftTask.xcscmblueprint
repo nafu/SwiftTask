@@ -13,7 +13,7 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "67620B5EFA902936DF04070AF595B76AB0333747" : "SwiftTask\/Carthage\/Checkouts\/Alamofire\/",
     "8CCFBC236B2D99F3320873838535AF1EA5422AB1" : "SwiftTask\/Carthage\/Checkouts\/Async\/",
-    "2DDF1D4E528EDA8D8E5AF503BA5680A30604BD70" : "SwiftTask\/Carthage\/Checkouts\/xcconfigs\/",
+    "2DDF1D4E528EDA8D8E5AF503BA5680A30604BD70" : "SwiftTask\/Configurations\/mrackwitz\/xcconfigs\/",
     "DF9A3E2A3372F2EF94714F47B19B6C0DCBBF4AB9" : "SwiftTask\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftTask",
